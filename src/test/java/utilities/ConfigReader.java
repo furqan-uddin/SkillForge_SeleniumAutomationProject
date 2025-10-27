@@ -11,7 +11,7 @@ public class ConfigReader {
         try (FileInputStream fis = new FileInputStream("./src/test/resources/config.properties")) {
             prop.load(fis);
         } catch (IOException e) {
-            System.out.println("❌ Unable to load config.properties: " + e.getMessage());
+            System.out.println("Unable to load config.properties: " + e.getMessage());
         }
     }
 

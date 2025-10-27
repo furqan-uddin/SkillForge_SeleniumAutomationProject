@@ -36,8 +36,6 @@ public class BaseTest {
 
         log.info("Opening SkillForge app: " + url);
         driver.get(url);
-
-        // clear localStorage so navbar shows Login/Register
         ((JavascriptExecutor) driver).executeScript("window.localStorage.clear();");
     }
 
