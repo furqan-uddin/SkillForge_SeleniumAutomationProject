@@ -30,12 +30,12 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        test.get().log(Status.PASS, "✅ Test Passed: " + result.getMethod().getMethodName());
+        test.get().log(Status.PASS, "Test Passed: " + result.getMethod().getMethodName());
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        test.get().log(Status.FAIL, "❌ Test Failed: " + result.getThrowable());
+        test.get().log(Status.FAIL, "Test Failed: " + result.getThrowable());
 
         // Screenshot
         WebDriver driver = BaseTest.driver;
@@ -51,7 +51,7 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        test.get().log(Status.SKIP, "⚠️ Test Skipped: " + result.getMethod().getMethodName());
+        test.get().log(Status.SKIP, "Test Skipped: " + result.getMethod().getMethodName());
     }
 
     @Override

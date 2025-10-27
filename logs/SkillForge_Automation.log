@@ -1,0 +1,22 @@
+[2025-10-27 07:43:45] INFO  BaseTest - Opening SkillForge app: https://skill-forge-bice-seven.vercel.app/
+[2025-10-27 07:43:46] INFO  LoginPage - Clicked Login from navbar
+[2025-10-27 07:43:48] INFO  LoginPage - Login form submitted with user: one@gmail.com
+[2025-10-27 07:43:50] INFO  LoginPage - Dashboard detected - login successful
+[2025-10-27 07:43:50] INFO  BaseTest - Closing browser...
+[2025-10-27 07:43:52] INFO  BaseTest - Opening SkillForge app: https://skill-forge-bice-seven.vercel.app/
+[2025-10-27 07:43:53] INFO  RegisterPage - Clicked Register from navbar
+[2025-10-27 07:43:53] INFO  RegisterPage - Filled registration form for: user19350@gmail.com
+[2025-10-27 07:43:54] INFO  RegisterPage - Clicked Register submit
+[2025-10-27 07:43:54] INFO  RegisterPage - Registration redirect detected
+[2025-10-27 07:43:54] INFO  BaseTest - Closing browser...
+[2025-10-27 07:44:42] INFO  BaseTest - Opening SkillForge app: https://skill-forge-bice-seven.vercel.app/
+[2025-10-27 07:44:44] INFO  LoginPage - Clicked Login from navbar
+[2025-10-27 07:44:45] INFO  LoginPage - Login form submitted with user: one@gmail.com
+[2025-10-27 07:44:47] INFO  LoginPage - Dashboard detected - login successful
+[2025-10-27 07:44:47] INFO  BaseTest - Closing browser...
+[2025-10-27 07:44:49] INFO  BaseTest - Opening SkillForge app: https://skill-forge-bice-seven.vercel.app/
+[2025-10-27 07:44:50] INFO  RegisterPage - Clicked Register from navbar
+[2025-10-27 07:44:51] INFO  RegisterPage - Filled registration form for: user4000@gmail.com
+[2025-10-27 07:44:51] INFO  RegisterPage - Clicked Register submit
+[2025-10-27 07:44:51] INFO  RegisterPage - Registration redirect detected
+[2025-10-27 07:44:51] INFO  BaseTest - Closing browser...

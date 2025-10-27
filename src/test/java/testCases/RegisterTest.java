@@ -17,6 +17,6 @@ public class RegisterTest extends BaseTest {
         reg.fillForm("TestUser", randomEmail, "SkillForge@123");
         reg.submitForm();
 
-        Assert.assertTrue(reg.isRegistrationSuccessful(), "❌ Registration failed or redirect missing");
+        Assert.assertTrue(reg.isRegistrationSuccessful(), "Registration failed or redirect missing");
     }
 }
