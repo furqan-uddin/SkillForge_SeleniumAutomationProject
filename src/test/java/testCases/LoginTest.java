@@ -15,6 +15,6 @@ public class LoginTest extends BaseTest {
         page.clickLoginFromNavbar();
         page.performLogin(ConfigReader.get("email"), ConfigReader.get("password"));
 
-        Assert.assertTrue(page.isLoginSuccessful(), "❌ Login failed - Dashboard not visible");
+        Assert.assertTrue(page.isLoginSuccessful(), "Login failed - Dashboard not visible");
     }
 }
